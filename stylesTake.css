@@ -1,0 +1,26 @@
+#container {
+  width: 95%;
+  max-width: 520px;
+  height: auto;
+  margin: 20px auto;
+  padding: 18px;
+  box-sizing: border-box;
+  background: white;
+  border: 2px dashed rgba(255,255,255,0.12);
+  border-radius: 12px;
+  min-height: 320px;
+  touch-action: none;
+}
+
+#container.active {
+  border-color: rgba(94,94,139,0.9);
+  box-shadow: 0 6px 18px rgba(94,94,139,0.12);
+}
+
+#container .konvajs-content {
+  width: 100% !important;
+}
+
+#container canvas {
+  width: 100% !important;
+}
